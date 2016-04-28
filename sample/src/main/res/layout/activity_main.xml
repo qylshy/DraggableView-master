@@ -78,28 +78,6 @@
         app:spacing="2dp">
 
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FF0000"
-            android:padding="8dp">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/sting"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Hello TextView!"
-                android:textColor="#FFFFFF" />
-        </FrameLayout>
-
-
-
 
         <ImageView
             android:layout_width="wrap_content"
@@ -111,26 +89,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/chemichal_brothers_exit_planet_dust" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FF0000"
-            android:padding="8dp">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:scaleType="center"
-                android:src="@drawable/sting"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Hello TextView!"
-                android:textColor="#FFFFFF" />
-        </FrameLayout>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -156,9 +114,10 @@
             android:layout_height="wrap_content"
             android:src="@drawable/die_antwoords_donker_mag" />
 
-
-
-
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_antwoords_tension" />
 
 
     </su.levenetc.android.sample.SevenGridContainer>
